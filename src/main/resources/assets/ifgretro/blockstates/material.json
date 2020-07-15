@@ -1,0 +1,29 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "builtin/generated",
+		"textures": {
+			"layer0": "blocks/dirt"
+		},
+		"transform": "forge:default-item"
+	},
+	"variants": {
+		"type": {
+			"raw_rubber": {
+				"textures": {
+					"layer0": "ifgretro:items/item.ifgretro.raw_rubber"
+				}
+			},
+			"rubber_bar": {
+				"textures": {
+					"layer0": "ifgretro:items/item.ifgretro.rubber_bar"
+				}
+			},
+			"raw_plastic": {
+				"textures": {
+					"layer0": "ifgretro:items/item.ifgretro.raw_plastic"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+  "forge_marker":1,
+  "defaults": {
+    "model": "minecraft:leaves",
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "fancy": {
+      "true,variant=normal": {
+        "textures": {
+          "all": "ifgretro:blocks/tile.ifgretro.rubberwood.leaves.transparent"
+        }
+      },
+      "true,variant=dry": {
+        "textures": {
+          "all": "ifgretro:blocks/tile.ifgretro.rubberwood.leaves.dry.transparent"
+        }
+      },
+      "false,variant=normal": {
+        "textures": {
+          "all": "ifgretro:blocks/tile.ifgretro.rubberwood.leaves.opaque"
+        }
+      },
+      "false,variant=dry": {
+        "textures": {
+          "all": "ifgretro:blocks/tile.ifgretro.rubberwood.leaves.dry.opaque"
+        }
+      }
+    }
+  }
+}

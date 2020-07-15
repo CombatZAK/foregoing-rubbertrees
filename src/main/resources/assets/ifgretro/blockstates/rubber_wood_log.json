@@ -1,0 +1,27 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "minecraft:cube_column",
+		"textures": {
+			"end": "ifgretro:blocks/tile.ifgretro.rubberwood.log.top",
+			"side": "ifgretro:blocks/tile.ifgretro.rubberwood.log.side"
+		}
+	},    
+	"variants": {
+		"axis": {
+			"y": {},
+			"z": {
+				"x": 90
+			},
+			"x": {
+				"x": 90, "y": 90
+			},
+			"none": {
+				"model": "minecraft:cube_all",
+				"textures": {
+					"all": "ifgretro:blocks/tile.ifgretro.rubberwood.log.side"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ifgretro",
+  "name": "Foregoing RubberTrees",
+  "description": "Re-adds MFR rubber trees compatible with Industrial Foregoing",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["CombatZAK"],
+  "credits": "skyboy and TeamCoFH for work on MFR; Buuz135 and company for Industrial Foregoing",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

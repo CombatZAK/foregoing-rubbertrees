@@ -1,0 +1,25 @@
+{
+	"parent": "block/leaves",
+	"variants": {
+	    "fancy=false,variant=dry": {
+	        "textures": {
+	            "all": "ifgretro:blocks/tile.ifgretro.rubberwood.leaves.dry.opaque"
+	        }
+	    },
+	    "fancy=false,variant=normal": {
+	        "textures": {
+	            "all": "ifgretro:blocks/tile.ifgretro.rubberwood.leaves.opaque"
+	        }
+	    },
+	    "fancy=true,variant=dry": {
+	        "textures": {
+                "all": "ifgretro:blocks/tile.ifgretro.rubberwood.leaves.dry.transparent"
+            }
+	    },
+	    "fancy=true,variant=normal": {
+            "textures": {
+                "all": "ifgretro:blocks/tile.ifgretro.rubberwood.leaves.transparent"
+            }
+        }
+	}
+}
