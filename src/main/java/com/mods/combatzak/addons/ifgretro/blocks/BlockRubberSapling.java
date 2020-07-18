@@ -88,7 +88,7 @@ public class BlockRubberSapling extends BlockBush implements IInitializer, IGrow
             default:
             case NORMAL:
                 Biome b = world.getBiome(pos);
-                if (b.getBiomeName().toLowerCase(Locale.US).contains("mega"))
+                if (b.getRegistryName().toString().toLowerCase(Locale.US).contains("redwood"))
                     if (rand.nextInt(50) == 0)
                         if (ModWorldGen.generateMegaRubberTree(world, rand, pos, true))
                             return;
